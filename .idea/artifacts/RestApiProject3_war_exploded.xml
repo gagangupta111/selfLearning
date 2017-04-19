@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RestApiProject3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RestApiProject3_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RestApiProject3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RestApiProject3" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-json:1.8" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.8" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.3-1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.2" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.7.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.7.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.7.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.7.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.1" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+        </element>
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/web/index.jsp" />
+    </root>
+  </artifact>
+</component>
